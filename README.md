@@ -1,9 +1,33 @@
-## 构建项目
+# film-system-admin 项目管理后台
 
-- create-react-app react-oms-admin
-- cd react-oms-admin
-- npm start
+- 使用film-system-admin需先启动[API服务](https://github.com/beyondouyuan/film-system-api.git)提供数据来源
 
-启动项目成功，其实create-react-app脚手架是基于webpack构建的，但是我们却是没有看到类似config、webpack.config.js这样的配置文件夹和文件，仔细看package.json的script命令，这里有一个eject命令，即反编译命令，运行npm run eject即可反编译出webpack的配置文件（config、script文件夹），这样讲方便我们后续定制一些配置
+## API服务
+
+- Node/Npm/Koa2
+- Mysql
 
 
+## 管理后台
+
+- React                             视图开发
+- Antd                              UI库
+- Redux/React-Redux/Redux-Thunk     状态管理
+- React-Router 4.x                  路由管理
+- Reqwest                           http库
+
+
+## 安装
+
+```shell
+$ git clone https://github.com/beyondouyuan/film-system-admin.git
+
+$ npm install
+```
+
+
+## 运行
+
+```shell
+$ npm start
+```
